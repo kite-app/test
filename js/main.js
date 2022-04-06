@@ -6,7 +6,7 @@
 (function($) {
 
 	"use strict";
-
+	console.log('add test')
 	var isMobile = {
 		Android: function() {
 			return navigator.userAgent.match(/Android/i);
@@ -27,7 +27,7 @@
 			return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
 		}
 	};
-
+	console.log('add test 2')
 
 	$(window).stellar({
     responsive: true,
