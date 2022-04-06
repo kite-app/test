@@ -6,7 +6,7 @@
 (function($) {
 
 	"use strict";
-
+	console.log('add test')
 	var isMobile = {
 		Android: function() {
 			return navigator.userAgent.match(/Android/i);
