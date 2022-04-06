@@ -27,7 +27,7 @@
 			return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
 		}
 	};
-
+	console.log('add test 2')
 
 	$(window).stellar({
     responsive: true,
